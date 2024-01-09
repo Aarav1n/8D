@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    background-image: url(download\ \(1\).jfif);
+    background-size: 1600px 750px;
+}
+img{
+    height: 95%;
+    width: 60%;
+    margin-top: 76px;
+    border: 10px double black;
+    border-radius: 10%;
+}
+.cric1{
+    position: relative;
+}
+.cric-p1{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 56%;
+    padding: 30px;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.70);
+    margin-left: 22%;
+    border-radius: 1rem;
+}
+.cric-p1{
+    display: none;
+}
+.cric1:hover .cric-p1{
+display: block;
+}
+.cric2{
+    position: relative;
+}
+.cric-p2{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 56%;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-left: 22%;
+    border-radius: 1rem;
+}
+.cric-p2{
+    display: none;
+}
+.cric2:hover .cric-p2{
+display: block;
+}

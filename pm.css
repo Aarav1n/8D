@@ -1,0 +1,7 @@
+body{text-align: center;
+background-color: rgba(0, 0, 0, 0.316);}
+.main{
+    width: 750px;
+    margin: auto;
+    background-color: aliceblue;
+}

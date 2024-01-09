@@ -1,0 +1,97 @@
+body{
+    width: 100%;
+}
+/* font import */
+@font-face {
+    font-family: blk;
+    src: url(blk.TTF);
+}
+/* top section */
+.tl{
+height: 500px;
+background-color: #EAF6F6; 
+font-family: blk;
+width: 100.8%;
+}
+.tlh{
+padding: 10% 40%;
+    color: #66BFBF;
+    font-size: 5rem;
+}
+/* middle1section */
+.defe{
+    text-align: center;
+    padding: 7% 0;
+}
+.hdefe{
+    font-family: 'Montserrat', sans-serif;
+}
+.icon{
+    color: red;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #B31312;
+}
+.press{
+    padding: 7% 15%;
+    text-align: center;
+}
+#press{
+    background-color: #66BFBF;
+    height: 400px;
+    text-align: center;
+}
+img{
+    border-radius: 10%;
+}
+.cl{
+    position: relative;
+}
+.cl-p{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 21%;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    margin-left: 39.5%;
+}
+.cl-p{
+    display: none;
+}
+.cl:hover .cl-p{
+display: block;
+}
+.cric{
+    position: relative;
+}
+.cric-p{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 28%;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    margin-left: 36%;
+}
+.cric-p{
+    display: none;
+}
+.cric:hover .cric-p{
+display: block;
+}
+.icon1{
+    color: yellowgreen;
+    margin-bottom: 1rem;
+}
+.icon1:hover{
+    color: green;
+}
+.tf{
+    background-color: #EAF6F6; 
+width: 100.8%;
+text-align: center;
+}

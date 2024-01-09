@@ -1,0 +1,10 @@
+p{
+    text-align: center;
+    font-family: Merriweather;
+}
+h1{
+    text-align: center;
+}
+div.col{
+    border: 10px solid black;
+}
