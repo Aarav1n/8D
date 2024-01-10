@@ -2,6 +2,7 @@ body{
     text-align: center;
     background-image: url(download\ \(1\).jfif);
     background-size: 1600px 750px;
+      overflow-x: hidden;
 }
 img{
     height: 95%;
