@@ -29,26 +29,7 @@ img{
 }
 .cric1:hover .cric-p1{
 display: block;
-}
-.cric2{
-    position: relative;
-}
-.cric-p2{
-    position: absolute;
-    bottom: 0%;
-    left: 1%;
-    width: 54%;
-    padding: 30px;
-    color: rgb(0, 0, 0);
-    background-color: rgba(255, 255, 255, 0.7);
-    margin-left: 22%;
-    border-radius: 1rem;
-}
-.cric-p2{
-    display: none;
-}
-.cric2:hover .cric-p2{
-display: block;
+animation: cric 0.5s linear;
 }
 .cric3{
     position: relative;}
@@ -67,4 +48,14 @@ display: block;
     display: none;
 }
 .cric3:hover .cric-p3{
-display: block;}
+display: block;
+animation: cric 0.5s linear;
+}
+@keyframes cric {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
