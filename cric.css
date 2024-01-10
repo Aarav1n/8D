@@ -29,6 +29,7 @@ img{
 }
 .cric1:hover .cric-p1{
 display: block;
+animation: cric 0.5s linear;
 }
 .cric2{
     position: relative;
@@ -49,4 +50,13 @@ display: block;
 }
 .cric2:hover .cric-p2{
 display: block;
+animation: cric 0.5s linear;
+}
+@keyframes cric {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
