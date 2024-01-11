@@ -136,3 +136,17 @@ animation-iteration-count: infinite;
         opacity: 1;
     }
 }
+.sty{
+    position: relative;
+    display: block;
+    height: 10px;
+}
+.tff{
+    font-size: 7px;
+    display: none;
+    transform: translateY(-3px);
+}
+.sty:hover .tff{
+    display: block;
+    animation: circ 1s linear;
+}
